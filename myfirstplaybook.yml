@@ -1,0 +1,12 @@
+---
+- hosts: all
+  become: yes
+  tasks:
+  - name: i want to install webserver on ubuntu nodes
+    apt:
+      name: apachee
+      state: present
+  - name: i want to install tree
+    apt: 
+      name: tree
+      state: present 
