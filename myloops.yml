@@ -1,8 +1,8 @@
 ---
-hosts: 172.31.37.78
-become: yes
-tasks:
-- name: install git
+- hosts: 172.31.37.78
+  become: yes
+  tasks:
+  - name: install git
   apt:
     name: "{{item}}"
     state: present
