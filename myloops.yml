@@ -3,7 +3,7 @@
   become: yes
   tasks:
   - name: install git
-  apt:
+  yum:
     name: "{{item}}"
     state: present
     loop:
