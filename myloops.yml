@@ -1,9 +1,9 @@
 ---
-- hosts: 172.31.37.78
+- hosts: 172.31.13.60
   become: yes
   tasks:
   - name: install git
-  yum:
+  apt:
     name: "{{item}}"
     state: present
     loop:
