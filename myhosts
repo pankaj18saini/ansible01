@@ -1,3 +1,19 @@
-172.31.13.60
 
+
+[mywebservers]
+172.31.13.60
 172.31.37.78
+
+
+[applicationservers]
+172.31.9.222
+
+[DBservers]
+172.31.44.90
+172.31.43.60
+
+[Ubuntuservers]
+172.31.44.79
+
+[redhatservers]
+172.31.43.40
