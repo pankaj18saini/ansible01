@@ -1,0 +1,5 @@
+---
+- hosts: 172.31.13.60
+  become: yes
+  roles:
+    - mywebroles
