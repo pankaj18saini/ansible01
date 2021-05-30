@@ -18,7 +18,7 @@
     notify: restartwebsever
 
   handlers:
-  - name: restartwebsever
+  - name: restartwebsever 
     service:
       name: apache2
       state: restarted
