@@ -8,11 +8,10 @@
       instance_type: t2.micro
       image: ami-05014693df353053e
       wait: yes
-      group: LAMP
+      group: NONE
       region: us-east-2
       count: 2
       vpc_subnet_id: subnet-b37fc6d8
       assign_public_ip: yes
       instance_tags:
         Name: myAnsibleUbuntuNode
-        
